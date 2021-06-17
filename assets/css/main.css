@@ -1979,7 +1979,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: silver;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -1989,7 +1989,18 @@ input, select, textarea {
 				font-size: 6em;
 			}
 
-/* Wrappers */
+		.icon.featured-navy {
+			color: navy;
+			display: block;
+			margin: 0 0 1.5em 0;
+			cursor: default;
+		}
+
+			.icon.featured-navy:before {
+				font-size: 6em;
+			}
+	
+	/* Wrappers */
 
 	.wrapper {
 		background-image: url("images/bg.png");
@@ -2448,3 +2459,7 @@ input, select, textarea {
 					}
 
 	}
+
+.color-blue {
+	color: navy;
+}
