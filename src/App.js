@@ -1,9 +1,10 @@
 import React from 'react';
+import { FeedbackForm } from './components/FeedbackForm'
 
 function App() {
     return (
         <div>
-            Sample Root App div.
+            <FeedbackForm />
         </div>
     )
 }
